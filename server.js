@@ -28,7 +28,10 @@ app.use(cors({
       'http://localhost:5173',
       'http://localhost:3000',
       'http://localhost:5174',
-      'http://127.0.0.1:5173'
+      'http://127.0.0.1:5173',
+      'https://pokerprotrack.com',
+      'https://www.pokerprotrack.com'
+
     ];
     // Permitir requests sin origin (Postman, etc)
     if (!origin) return callback(null, true);
